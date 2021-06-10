@@ -1,4 +1,4 @@
-package manager;
+package ru.netology.domain.manager;
 
 import ru.netology.domain.Post;
 

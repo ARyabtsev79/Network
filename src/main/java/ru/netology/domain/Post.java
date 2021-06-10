@@ -17,7 +17,7 @@ public class Post {
     private boolean canPin;
     private boolean canDelete;
     private boolean canEdit;
-    private int isPinned;
+    private boolean isPinned;
     private boolean markedAsAds;
     private boolean isFavorite;
     private int postponedId;
@@ -176,12 +176,12 @@ public class Post {
         this.canEdit = canEdit;
     }
 
-    public int getIsPinned() {
+    public boolean getIsPinned() {
 
         return isPinned;
     }
 
-    public void setIsPinned(int isPinned) {
+    public void setIsPinned(boolean isPinned) {
 
         this.isPinned = isPinned;
     }
